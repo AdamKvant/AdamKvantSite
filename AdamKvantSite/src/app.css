@@ -1,3 +1,20 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+/* Color Scheme:
+    Navy: 384B70
+    Teal: 507687
+    Whitesmoke: FCFAEE
+    Red: B8001F
+*/
+
+
+.headerOverall {
+    @apply bg-[#B8001F] font-bold text-5xl text-[#FCFAEE] pb-3;
+}
+
+.hoverHeader{
+    @apply hover:text-[#507687] cursor-pointer;
+}
