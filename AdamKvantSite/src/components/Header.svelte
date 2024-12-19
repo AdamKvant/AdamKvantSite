@@ -1,4 +1,4 @@
-<div class="headerOverall">
+<div class="headerOverall rounded-b-lg">
     <a class="hoverHeader" href="/">Home</a> |
     <a class="hoverHeader" href="/experience">Experience</a> |
     <a class="hoverHeader" href="/projects">Projects</a> |

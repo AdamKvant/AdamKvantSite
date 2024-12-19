@@ -12,7 +12,7 @@
 
 
 .headerOverall {
-    @apply bg-[#B8001F] font-bold text-5xl text-[#FCFAEE] pb-3;
+    @apply bg-[#B8001F] font-bold text-5xl text-[#FCFAEE] pt-2 pl-2 pb-3;
 }
 
 .hoverHeader{
