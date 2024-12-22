@@ -4,7 +4,7 @@
 	let { children } = $props();
 </script>
 
-<div class="bg-[#FCFAEE] min-h-full">
+<div class="bg-[#FCFAEE] min-h-screen">
     <Header/>
     <div>{@render children()}</div>
 </div>

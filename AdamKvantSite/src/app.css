@@ -18,3 +18,23 @@
 .hoverHeader{
     @apply hover:text-[#507687] cursor-pointer;
 }
+
+.headshot {
+    @apply rounded-full shadow-xl w-64 h-64 object-contain ml-14;
+}
+
+.Intro{
+    @apply bg-[#384B70] py-7 rounded-3xl mt-10 flex sm:flex-row flex-col justify-center shadow-lg
+}
+
+.Name {
+    @apply font-bold text-5xl text-[#FCFAEE] mt-14 pl-20
+}
+
+.IntroDesc{
+    @apply text-[#FCFAEE] mt-7 pl-20 font-semibold text-lg
+}
+
+.Card {
+    @apply w-2/3 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg
+}
