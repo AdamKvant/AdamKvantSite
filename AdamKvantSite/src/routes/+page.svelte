@@ -1,5 +1,4 @@
 <script>
-	import { server_loads } from './../../.svelte-kit/generated/client-optimized/app.js';
     import { onMount } from 'svelte';
   
     onMount(() => {
@@ -8,10 +7,10 @@
   </script>
 
   <!-- Body -->
-<div class="flex flex-col items-center gap-3 min-h-full sm:w-2/3 lg:w-1/3">
+<div class="flex flex-col items-center gap-3 min-h-full">
 
   <!-- Intro -->
-  <div class="Intro" id="Intro">
+  <div class="Card Intro" id="Intro">
       <img src="/images/Headshot.jpg" alt="Adam Kvant Headshot" class="headshot">
     <div class="flex flex-col w-4/5 sm:w-full">
       <h1 class="Name">Adam Kvant</h1>

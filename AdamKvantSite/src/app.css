@@ -36,5 +36,5 @@
 }
 
 .Card {
-    @apply w-2/3 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg
+    @apply sm:w-3/5 w-2/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg
 }
