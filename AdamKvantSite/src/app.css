@@ -20,11 +20,11 @@
 }
 
 .headshot {
-    @apply rounded-full shadow-xl w-64 h-64 object-contain ml-14;
+    @apply rounded-full shadow-xl md:w-64 md:h-64 sm:w-28 sm:h-28 object-contain ml-14;
 }
 
 .Intro{
-    @apply bg-[#384B70] py-7 rounded-3xl mt-10 flex sm:flex-row flex-col justify-center shadow-lg
+    @apply sm:w-4/5 w-2/5 bg-[#384B70] py-7 rounded-3xl mt-10 flex sm:flex-row flex-col justify-center shadow-lg
 }
 
 .Name {
@@ -36,5 +36,5 @@
 }
 
 .Card {
-    @apply sm:w-3/5 w-2/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg
+    @apply sm:w-4/5 w-2/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg
 }
