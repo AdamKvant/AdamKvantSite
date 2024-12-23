@@ -32,9 +32,17 @@
 }
 
 .IntroDesc{
-    @apply text-[#FCFAEE] mt-7 pl-20 font-semibold text-lg
+    @apply text-[#FCFAEE] mt-7 pl-20 font-semibold text-lg pr-10
 }
 
 .Card {
-    @apply sm:w-4/5 w-2/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg
+    @apply sm:w-4/5 w-2/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg pb-5
+}
+
+.CardTitle{
+    @apply font-bold text-5xl text-[#FCFAEE] mt-3 pl-20 
+}
+
+.CardDesc{
+    @apply text-[#FCFAEE] mt-7 pl-20 font-semibold text-lg pr-10
 }
