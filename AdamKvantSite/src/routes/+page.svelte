@@ -1,13 +1,14 @@
 <script>
     import { onMount } from 'svelte';
         import Card from '../components/Card.svelte'
+        import Tag from '../components/Tag.svelte'
     onMount(() => {
       document.title = "Adam Kvant";
     });
   </script>
 
   <!-- Body -->
-<div class="flex flex-col items-center gap-3 min-h-full">
+<div class="flex flex-col items-center gap-3 min-h-full mb-10">
 
   <!-- Intro -->
   <div class="Card Intro" id="Intro">
@@ -25,16 +26,17 @@
 
   <!-- About Me -->
   <Card title="About Me"
-  description="Hello! I'm Adam, I recently graduated with distinction from UMN's College of Science and and Engineering with a B.S. in Computer Science.
-      I enjoy learning all things technology, whether it's software or hardware. I have interned in various sectors of the tech industry (IT, Data Science, and Development),
-      and these roles have provided me with unique and useful skills that I can apply in any setting.
-      <br>
-      Outside of work, I enjoy learning new tech stacks (I learned Svelte for this site) and 3D printing.
-      I also spend my time lifting, baking bread, fencing (Sabre), rock climbing, gaming, and playing soccer." />
+  description="Hi, I’m Adam! I recently graduated with distinction from UMN’s College of Science and Engineering with a B.S. in Computer Science. With intern experience in IT, Data Science, and Development, I have a diverse set of skills at my disposal. I enjoy exploring new technologies (like Svelte) and 3D printing.
+  <br> Outside of tech, I’m passionate about lifting, baking bread, fencing (Sabre), rock climbing, gaming, and soccer." />
   <!-- End About Me -->
 
   <!-- Skills -->
   <Card title="Skills"
-  description="Blah"/>
+  description=""
+  tags={["Java","Python","C#","HTML/CSS","JavaScript","TailwindCSS","EmberJS","Flask","Svelte","C",
+  "UML","Git","Firebase","Linux (Ubuntu & Fedora)","MySQL","PostgresSQL","Microsoft Office", "Google Workspace",
+  "Solidworks","x86_64 Assembly","C++"
+  ]}
+  />
   <!-- End Skills -->
 </div>

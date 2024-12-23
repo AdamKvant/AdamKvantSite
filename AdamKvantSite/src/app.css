@@ -36,7 +36,7 @@
 }
 
 .Card {
-    @apply sm:w-4/5 w-2/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg pb-5
+    @apply sm:w-4/5 w-2/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg pb-5 shadow shadow-xl
 }
 
 .CardTitle{
@@ -45,4 +45,8 @@
 
 .CardDesc{
     @apply text-[#FCFAEE] mt-7 pl-20 font-semibold text-lg pr-10
+}
+
+.Tag{
+    @apply text-[#FCFAEE] bg-[#B8001F] p-2 rounded-md  hover:text-[#B8001F] hover:bg-[#FCFAEE] cursor-default
 }
