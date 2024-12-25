@@ -1,3 +1,52 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+/* Color Scheme:
+    Navy: 384B70
+    Teal: 507687
+    Whitesmoke: FCFAEE
+    Red: B8001F
+*/
+
+
+.headerOverall {
+    @apply bg-[#B8001F] font-bold text-5xl text-[#FCFAEE] pt-2 pl-2 pb-3;
+}
+
+.hoverHeader{
+    @apply hover:text-[#507687] cursor-pointer;
+}
+
+.headshot {
+    @apply rounded-full shadow-xl md:w-64 md:h-64 sm:w-28 sm:h-28 object-contain ml-14;
+}
+
+.Intro{
+    @apply sm:w-4/5 w-2/5 bg-[#384B70] py-7 rounded-3xl mt-10 flex sm:flex-row flex-col justify-center shadow-lg
+}
+
+.Name {
+    @apply font-bold text-5xl text-[#FCFAEE] mt-14 pl-20
+}
+
+.IntroDesc{
+    @apply text-[#FCFAEE] mt-7 pl-20 font-semibold text-lg pr-10
+}
+
+.Card {
+    @apply sm:w-4/5 w-2/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg pb-5 shadow shadow-xl
+}
+
+.CardTitle{
+    @apply font-bold text-5xl text-[#FCFAEE] mt-3 pl-20 
+}
+
+.CardDesc{
+    @apply text-[#FCFAEE] mt-7 pl-20 font-semibold text-lg pr-10
+}
+
+.Tag{
+    @apply text-[#FCFAEE] bg-[#B8001F] p-2 rounded-md  hover:text-[#B8001F] hover:bg-[#FCFAEE] cursor-default
+}
