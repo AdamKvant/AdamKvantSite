@@ -9,11 +9,10 @@
 
   <!-- Body -->
 <div class="flex flex-col items-center gap-4 min-h-full mb-10">
-
   <!-- Intro -->
   <div class="Card Intro" id="Intro">
       <img src="/images/Headshot.jpg" alt="Adam Kvant Headshot" class="headshot">
-    <div class="flex flex-col w-4/5 sm:w-full">
+    <div class="flex flex-col items-center md:items-start justify-center md:w-4/5 w-full">
       <h1 class="Name">Adam Kvant</h1>
       <div class="IntroDesc">
         Computer Science Graduate UMN CSE Class of 2025

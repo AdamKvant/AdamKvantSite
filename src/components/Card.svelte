@@ -12,7 +12,7 @@
       {#if description}
       <br>
       {/if}
-      <div class="flex flex-wrap justify-center gap-2">
+      <div class="flex flex-wrap w-full justify-center gap-2">
         {#each tags as tag}
           <Tag text={tag}/>
         {/each}
