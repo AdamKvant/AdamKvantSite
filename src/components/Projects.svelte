@@ -28,11 +28,12 @@
         <div class="mt-3 mb-0 ml-7 mr-1 space-y-2 w-1/3">
           <h2 class="text-2xl font-bold text-[#FCFAEE]">{item.title}</h2>
           {#if item.description}
-            <span>{item.description}</span>
-          {/if}
-          {#if item.disclaimer}
-            <br>
-            <span class="italic text-[#B8001F]">May not be hosted anymore</span>
+            <p>{item.description}
+              {#if item.disclaimer}
+                <br>
+                <span class="italic text-[#B8001F]">May not be hosted anymore</span>
+              {/if}
+            </p>
           {/if}
           <div class="flex flex-wrap justify-center gap-2">
             {#each item.tags as tag}
