@@ -12,7 +12,7 @@
       {
         title: "Incoming Application Developer Associate",
         company: "RSM US LLP",
-        duration: "",
+        duration: "Present",
         description: [],
     },
     {
@@ -25,6 +25,16 @@
           "Generated plugins and scripts in C# to automate backend Power Platform application processes.",
           "Utilized OData API requests to implement custom data filtering, tested using Postman."
         ],
+    },
+    {
+      title:"CSCI 1933 Course Content Designer",
+      company:"University of Minnesota Department of Computer Science & Engineering",
+      duration: "May 2024 - June 2024",
+      description:[
+        "Took initiative to gain support from the course professor and department to secure funding.",
+        "Led a major course-wide restructuring of course content, the changes affect ~400 students each semester.",
+        "Specific details can be found in the \"CSCI 1933 Course Overhaul\" project in my \"Projects\" page.",
+      ],
     },
     {
         title: "Undergraduate Teaching Assistant",
@@ -48,10 +58,14 @@
         ],      
     },
     {
-        title: "Research Assistant",
-        company: "UMN Data Lab",
-        duration: "Spring 2023",
-        description: [],      
+        title: "Systems Support Analyst Intern",
+        company: "Egan Company",
+        duration: "May 2022 - August 2022",
+        description: [
+          "Led a summer long project of laptop maintenance, repairs, and updates for various Windows machines.",
+          "Collaborated with other interns on replacing employee phones throughout the metro area.",
+          "Learned how to virtualize apps, use Cylance software, Active Directory, and some server maintenance.",
+        ],      
     },
     ];
   </script>
@@ -59,14 +73,14 @@
   <div class="flex flex-col space-y-8 w-full items-center my-10">
     {#each timeline as item}
       <div class="Card">
-        <div class="mt-2 mb-0 ml-8 space-y-2">
+        <div class="mt-2 mb-0 ml-8 space-y-2 mr-4">
           <h2 class="text-lg font-bold text-[#FCFAEE]">{item.title}</h2>
           <div class="flex flex-row gap-3">
             <span class="text-sm font-bold text-gray-300">{item.company}</span>
             <span class="text-sm text-gray-300 italic">{item.duration}</span>
           </div>
           {#if item.description}
-          <ul class=" ml-4 list-disc">
+          <ul class=" ml-4 list-disc mr-4">
             {#each item.description as desc}
             <li class="text-sm">{desc}</li>
             {/each}

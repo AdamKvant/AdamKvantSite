@@ -35,7 +35,7 @@
   description=""
   tags={["Java","Python","C#","HTML/CSS","JavaScript","TailwindCSS","EmberJS","Flask","Svelte","C",
   "UML","Git","Firebase","Linux (Ubuntu & Fedora)","MySQL","PostgresSQL","Microsoft Office", "Google Workspace",
-  "Solidworks","x86_64 Assembly","C++"
+  "Solidworks","x86_64 Assembly","C++","Agile Scrum"
   ]}/>
   <!-- End Skills -->
 </div>
