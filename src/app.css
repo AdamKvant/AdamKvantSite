@@ -27,7 +27,7 @@
 }
 
 .headshot {
-    @apply rounded-full shadow-xl md:w-64 md:h-64 sm:w-28 sm:h-28 object-contain ml-10;
+    @apply rounded-full shadow-xl md:w-64 md:h-64 w-28 h-28 object-contain ml-10;
 }
 
 .Intro{
@@ -43,7 +43,7 @@
 }
 
 .Card {
-    @apply sm:w-4/5 w-2/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg pb-5 shadow shadow-xl
+    @apply w-11/12 md:w-2/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg pb-5 shadow shadow-xl
 }
 
 .CardTitle{
