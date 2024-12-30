@@ -54,7 +54,3 @@
 .Tag{
     @apply text-[#FCFAEE] bg-[#B8001F] p-2 rounded-md transition-all duration-700 hover:text-[#B8001F] hover:bg-[#FCFAEE] cursor-default
 }
-
-.TimelineTitle{
-
-}

@@ -1,12 +1,3 @@
-<!-- <div class="Card">
-    <img src="" alt="" class="TimelineCompany">
-  <div class="flex flex-col w-4/5 sm:w-full">
-    <h1 class="TimelineTitle">Adam Kvant</h1>
-    <div class="TimelineDesc">
-      Computer Science Graduate UMN CSE Class of 2025
-    </div>
-  </div>
-</div> -->
 <script>
     export let timeline = [
       {
