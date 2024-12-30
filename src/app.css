@@ -12,7 +12,7 @@
 
 
 .headerOverall {
-    @apply bg-[#B8001F] font-bold text-5xl text-[#FCFAEE] pt-2 pl-2 pb-3 flex;
+    @apply bg-[#B8001F] font-bold text-4xl text-[#FCFAEE] pt-2 pl-2 pb-3 flex;
 }
 
 .footerOverall{
@@ -28,7 +28,7 @@
 }
 
 .Intro{
-    @apply sm:w-4/5 w-2/5 bg-[#384B70] py-7 rounded-3xl mt-10 flex sm:flex-row flex-col justify-center shadow-lg
+    @apply sm:w-4/5 w-2/5 bg-[#384B70] pb-7 pt-5 rounded-3xl mt-10 flex sm:flex-row flex-col justify-center shadow-lg
 }
 
 .Name {

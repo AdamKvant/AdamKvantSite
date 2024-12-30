@@ -8,7 +8,7 @@
   </script>
 
   <!-- Body -->
-<div class="flex flex-col items-center gap-3 min-h-full mb-10">
+<div class="flex flex-col items-center gap-4 min-h-full mb-10">
 
   <!-- Intro -->
   <div class="Card Intro" id="Intro">

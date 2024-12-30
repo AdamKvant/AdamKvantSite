@@ -70,7 +70,7 @@
     ];
   </script>
   
-  <div class="flex flex-col space-y-8 w-full items-center my-10">
+  <div class="flex flex-col space-y-4 w-full items-center my-10">
     {#each timeline as item}
       <div class="Card">
         <div class="mt-2 mb-0 ml-8 space-y-2 mr-4">
