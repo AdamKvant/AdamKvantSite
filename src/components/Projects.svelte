@@ -25,13 +25,13 @@
   <div class="flex flex-col space-y-4 w-full items-center my-10">
     {#each projects as item}
       <a href={item.link} class="Card flex flex-row shadow-2xl">
-        <div class="mt-3 mb-0 ml-7 mr-1 space-y-2 w-1/3">
+        <div class="mt-3 mb-0 ml-7 mr-1 space-y-1.5 w-1/3">
           <h2 class="text-2xl font-bold text-[#FCFAEE]">{item.title}</h2>
           {#if item.description}
             <p>{item.description}
               {#if item.disclaimer}
                 <br>
-                <span class="italic text-[#B8001F]">May not be hosted anymore</span>
+                <span class="italic text-[#B8001F] text-sm">May not be hosted anymore</span>
               {/if}
             </p>
           {/if}
