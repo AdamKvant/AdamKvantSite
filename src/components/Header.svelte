@@ -6,7 +6,7 @@
     }
 </script>
   
-<div class="headerOverall rounded-b-lg justify-between items-center flex">
+<div class="headerOverall rounded-b-lg justify-between items-center flex relative">
     <!-- Home -->
     <a class="hoverHeader pl-5" href="/">Adam Kvant</a>
 
@@ -26,8 +26,8 @@
     </div>
 
     <!-- Dropdown Menu -->
-    <div class={`absolute top-12 right-0 bg-[#B8001F] md:w-5/12 w-7/12 shadow-md rounded-b-lg flex flex-col items-start gap-4 p-5 md:hidden transition-all duration-300 
-        transform ${isOpen ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}`}>
+    <div class={`absolute top-12 right-0 bg-[#B8001F] md:w-5/12 w-7/12 shadow-md rounded-b-lg flex flex-col items-start gap-4 p-5 md:hidden transition-all duration-500 
+        transform ${isOpen ? 'translate-y-0 opacity-100' : '-translate-y-2 opacity-0'}`}>
         <a on:click={toggleMenu} class="hoverHeaderHam w-full text-right border border-b-4 border-x-0 border-t-0 pb-1.5" href="/experience">Experience</a>
         <a on:click={toggleMenu} class="hoverHeaderHam w-full text-right border border-b-4 border-x-0 border-t-0 pb-1.5" href="/projects">Projects</a>
     </div>

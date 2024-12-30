@@ -23,7 +23,7 @@
     @apply hover:text-[#384B70] hover:border-[#384B70] cursor-pointer transition-all duration-300 hover:opacity-100 hover:transform hover:translate-y-[-5px];
 }
 .hoverHeaderHam{
-    @apply cursor-pointer transition-all duration-300 hover:opacity-100 hover:transform hover:translate-y-[-5px];
+    @apply cursor-pointer;
 }
 
 .headshot {
