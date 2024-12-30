@@ -63,7 +63,7 @@
   
   <div class="flex flex-col space-y-4 w-full items-center my-10">
     {#each timeline as item}
-      <div class="Card">
+      <div class="Card shadow-2xl">
         <div class="mt-2 mb-0 ml-8 space-y-2 mr-4">
           <h2 class="text-lg font-bold text-[#FCFAEE]">{item.title}</h2>
           <div class="flex flex-row gap-3">
