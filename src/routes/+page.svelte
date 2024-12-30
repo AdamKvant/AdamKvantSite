@@ -33,7 +33,7 @@
   <!-- Skills -->
   <Card title="Skills"
   description=""
-  tags={["Java","Python","C#","HTML/CSS","JavaScript","TailwindCSS","EmberJS","Flask","Svelte","C",
+  tags={["Java","Python","C#","HTML/CSS","JavaScript","TailwindCSS","EmberJS","Flask","Svelte","C","ExpressJS",
   "UML","Git","Firebase","Linux (Ubuntu & Fedora)","MySQL","PostgresSQL","Microsoft Office", "Google Workspace",
   "Solidworks","x86_64 Assembly","C++","Agile Scrum"
   ]}/>

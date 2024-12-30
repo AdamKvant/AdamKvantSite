@@ -16,7 +16,7 @@
 }
 
 .footerOverall{
-    @apply bg-[#B8001F] font-bold text-5xl text-[#FCFAEE] pt-1 pb-1 flex
+    @apply bg-[#B8001F] font-semibold text-4xl text-[#FCFAEE] pt-1 pb-1 flex
 }
 
 .hoverHeader{
@@ -53,4 +53,8 @@
 
 .Tag{
     @apply text-[#FCFAEE] bg-[#B8001F] p-0.5 px-1.5 rounded-md transition-all duration-500 hover:text-[#B8001F] hover:bg-[#FCFAEE] cursor-default
+}
+
+.hoverFooter{
+    @apply cursor-pointer transition-all duration-100 hover:opacity-100 hover:transform hover:translate-y-[-5px];
 }

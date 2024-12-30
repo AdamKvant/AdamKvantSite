@@ -5,8 +5,8 @@
 	let { children } = $props();
 </script>
 
-<div class="flex justify-center">
-    <div class="sm:w-11/12 lg:w-9/12 flex flex-col min-h-screen relative overscroll-none">
+<div class="flex justify-center max-w-screen">
+    <div class="sm:w-11/12 lg:w-9/12 flex flex-col min-h-screen relative">
         <Header/>
         <div class="mb-16">{@render children()}</div>
         <div class="absolute bottom-0 w-full">
