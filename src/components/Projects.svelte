@@ -6,6 +6,7 @@
         tags: ["Svelte","TailwindCSS","JS/TS","Firebase"],
         source: "AKSitePic.png",
         alt: "adamkvant.dev picture",
+        link:"https://github.com/AdamKvant/AdamKvantSite",
     },
     ];
     import Tag from "./Tag.svelte";
@@ -13,7 +14,7 @@
   
   <div class="flex flex-col space-y-4 w-full items-center my-10">
     {#each projects as item}
-      <div class="Card flex flex-row">
+      <a href={item.link} class="Card flex flex-row">
         <div class="mt-2 mb-0 ml-8 space-y-2 w-1/3">
           <h2 class="text-2xl font-bold text-[#FCFAEE]">{item.title}</h2>
           {#if item.description}
@@ -30,7 +31,7 @@
           <img class="rounded-xl" src="images/{item.source}" alt={item.alt}>
           {/if}
         </div>
-      </div>
+      </a>
     {/each}
   </div>
   
