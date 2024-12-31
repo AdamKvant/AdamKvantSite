@@ -31,11 +31,11 @@
 }
 
 .Intro{
-    @apply sm:w-4/5 w-2/5 bg-[#384B70] pb-7 pt-5 rounded-3xl mt-10 flex flex-col md:flex-row items-center justify-center shadow-lg
+    @apply sm:w-4/5 w-2/5 bg-[#384B70] pb-7 pt-5 rounded-3xl mt-6 flex flex-col md:flex-row items-center justify-center shadow-lg
 }
 
 .Name {
-    @apply font-bold text-5xl text-[#FCFAEE] mt-3 md:mt-14 md:pl-16 px-8
+    @apply font-bold text-5xl text-[#FCFAEE] mt-3 md:-mt-1 md:pl-16 px-8
 }
 
 .IntroDesc{
@@ -43,7 +43,7 @@
 }
 
 .Card {
-    @apply w-11/12 md:w-4/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg pb-5 shadow-xl
+    @apply w-11/12 md:w-4/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg pb-3 md:pb-5 shadow-xl
 }
 
 .CardTitle{

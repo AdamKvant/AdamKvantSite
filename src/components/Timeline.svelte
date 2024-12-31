@@ -5,6 +5,8 @@
         company: "RSM US LLP",
         duration: "Present",
         description: [],
+        source:"rsm_us_llp_logo.jpg",
+        alt:"RSM Logo",
     },
     {
         title: "Application Developer Intern",
@@ -16,6 +18,8 @@
           "Generated plugins and scripts in C# to automate backend Power Platform application processes.",
           "Utilized OData API requests to implement custom data filtering, tested using Postman."
         ],
+        source:"rsm_us_llp_logo.jpg",
+        alt:"RSM Logo",
     },
     {
       title:"CSCI 1933 Course Content Designer",
@@ -26,6 +30,8 @@
         "Led a major course-wide restructuring of course content, the changes affect ~400 students each semester.",
         "Specific details can be found in the \"CSCI 1933 Course Overhaul\" project in my \"Projects\" page.",
       ],
+      source:"umncs.jpg",
+      alt:"University of Minnesota Computer Science Logo",
     },
     {
         title: "Undergraduate Teaching Assistant",
@@ -35,7 +41,9 @@
           "Undergraduate Teaching Assistant for CSCI 1933: Introduction to Algorithms and Data Structures",
           "Project Leader: I directed the creation of many major assignments that introduce core Java concepts.",
           "I lead a lab section with two other TAs, answering questions and directing lab overview.",
-        ],      
+        ],
+        source:"umncs.jpg",
+        alt:"University of Minnesota Computer Science Logo",    
     },
     {
         title: "Data Science Intern",
@@ -46,7 +54,9 @@
           "Implemented SQL queries on insurance claims database to generate synthetic control arms for three clinical trials.",
           "Supported initial progress towards two publications.",
           "Presented to senior engineers and executives in Shark Tank presentations and managed stakeholder expectations."
-        ],      
+        ],
+        source:"optum.jpg",
+        alt:"Optum Logo",    
     },
     {
         title: "Systems Support Analyst Intern",
@@ -56,22 +66,30 @@
           "Led a summer long project of laptop maintenance, repairs, and updates for various Windows machines.",
           "Collaborated with other interns on replacing employee phones throughout the metro area.",
           "Learned how to virtualize apps, use Cylance software, Active Directory, and some server maintenance.",
-        ],      
+        ],
+        source:"egan.jpg",
+        alt:"Egan Logo",    
     },
     ];
   </script>
   
-  <div class="flex flex-col space-y-4 w-full items-center my-10">
+  <div class="flex flex-col space-y-4 w-full items-center my-6">
     {#each timeline as item}
-      <div class="Card shadow-2xl">
-        <div class="mt-2 mb-0 ml-8 space-y-2 mr-4">
-          <h2 class="text-lg font-bold text-[#FCFAEE]">{item.title}</h2>
-          <div class="flex flex-row gap-3">
-            <span class="text-sm font-bold text-gray-300">{item.company}</span>
-            <span class="text-sm text-gray-300 italic">{item.duration}</span>
+      <div class={`Card shadow-2xl pt-2 ${item.description.length == 0 ? 'md:pb-2' : 'md:pb-4'}`}>
+        <div class="md:mt-2 md:mb-0 md:ml-8 space-y-2 md:mr-4 mx-7">
+          <div class="flex flex-col md:flex-row items-center md:items-start">
+            <img class="rounded-full h-16 w-16 md:h-12 md:w-12 md:mr-2 mt-2 md:mt-0 mb-3 md:mb-0" src="/images/{item.source}" alt={item.alt}>
+            <div class="flex flex-col items-center md:items-start">
+              <h2 class="text-lg font-bold text-[#FCFAEE]">{item.title}</h2>
+              <div class="flex flex-row items-center md:items-start gap-3">
+                <span class="text-sm font-bold text-gray-300">{item.company}</span>
+                <span class="text-sm text-gray-300 italic">{item.duration}</span>
+              </div>
+            </div>
+            
           </div>
           {#if item.description}
-          <ul class=" ml-4 list-disc mr-4">
+          <ul class=" mx-4 list-disc pb-2 md:pb-0">
             {#each item.description as desc}
             <li class="text-sm">{desc}</li>
             {/each}

@@ -57,7 +57,7 @@
     import Tag from "./Tag.svelte";
   </script>
   
-  <div class="flex flex-col space-y-4 w-full items-center my-10">
+  <div class="flex flex-col space-y-4 w-full items-center my-6">
     {#each projects as item}
       <a href={item.link} class="Card flex flex-col-reverse items-center md:items-start md:flex-row shadow-2xl">
         {#if item.source}
