@@ -59,9 +59,9 @@
   
   <div class="flex flex-col space-y-4 w-full items-center my-6">
     {#each projects as item}
-      <a href={item.link} class="Card flex flex-col-reverse items-center lg:items-start lg:flex-row shadow-2xl">
+      <a href={item.link} class="Card flex flex-col-reverse items-center shadow-2xl">
         {#if item.source}
-        <div class="lg:mt-3 lg:mb-0 lg:ml-7 lg:mr-1 space-y-1.5 w-11/12 lg:w-1/3">
+        <div class="space-y-1.5 w-full px-6 mt-2">
           <h2 class="text-2xl font-bold text-[#FCFAEE]">{item.title}</h2>
           {#if item.description}
             <p>{item.description}
@@ -71,7 +71,7 @@
               {/if}
             </p>
           {/if}
-          <div class="flex flex-wrap justify-center gap-2">
+          <div class="flex flex-wrap justify-center gap-2 pb-3 lg:pb-1">
             {#each item.tags as tag}
               <Tag text={tag}/>
             {/each}
@@ -79,7 +79,7 @@
         </div>
         {/if}
         {#if !item.source}
-          <div class="lg:mt-3 lg:mb-0 lg:ml-7 lg:mr-0 space-y-1.5 w-11/12">
+          <div class="space-y-1.5 w-full px-6 mt-2">
             <h2 class="text-2xl font-bold text-[#FCFAEE] mt-2">{item.title}</h2>
             {#if item.description}
               <p>{item.description}
@@ -89,7 +89,7 @@
                 {/if}
               </p>
             {/if}
-            <div class="flex flex-wrap justify-center gap-2">
+            <div class="flex flex-wrap justify-center gap-2 pb-3 lg:pb-1">
               {#each item.tags as tag}
                 <Tag text={tag}/>
               {/each}
@@ -97,7 +97,7 @@
           </div>
         {/if}
         {#if item.source}
-        <div class="w-full lg:w-2/3 lg:pr-5 pt-3 px-3 lg:pt-5">
+        <div class="w-full pt-6 px-6">
           <img class="rounded-xl shadow-lg" src="images/{item.source}" alt={item.alt}>
         </div>
         {/if}
