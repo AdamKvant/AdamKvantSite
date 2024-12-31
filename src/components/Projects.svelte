@@ -59,9 +59,9 @@
   
   <div class="flex flex-col space-y-4 w-full items-center my-6">
     {#each projects as item}
-      <a href={item.link} class="Card flex flex-col-reverse items-center md:items-start md:flex-row shadow-2xl">
+      <a href={item.link} class="Card flex flex-col-reverse items-center lg:items-start lg:flex-row shadow-2xl">
         {#if item.source}
-        <div class="md:mt-3 md:mb-0 md:ml-7 md:mr-1 space-y-1.5 w-11/12 md:w-1/3">
+        <div class="lg:mt-3 lg:mb-0 lg:ml-7 lg:mr-1 space-y-1.5 w-11/12 lg:w-1/3">
           <h2 class="text-2xl font-bold text-[#FCFAEE]">{item.title}</h2>
           {#if item.description}
             <p>{item.description}
@@ -79,7 +79,7 @@
         </div>
         {/if}
         {#if !item.source}
-          <div class="md:mt-3 md:mb-0 md:ml-7 md:mr-0 space-y-1.5 w-11/12">
+          <div class="lg:mt-3 lg:mb-0 lg:ml-7 lg:mr-0 space-y-1.5 w-11/12">
             <h2 class="text-2xl font-bold text-[#FCFAEE] mt-2">{item.title}</h2>
             {#if item.description}
               <p>{item.description}
@@ -97,8 +97,8 @@
           </div>
         {/if}
         {#if item.source}
-        <div class="w-full md:w-2/3 md:pr-5 pt-3 px-3 md:pt-5">
-          <img class="rounded-xl shadow-md" src="images/{item.source}" alt={item.alt}>
+        <div class="w-full lg:w-2/3 lg:pr-5 pt-3 px-3 lg:pt-5">
+          <img class="rounded-xl shadow-lg" src="images/{item.source}" alt={item.alt}>
         </div>
         {/if}
       </a>
