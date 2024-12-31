@@ -4,11 +4,15 @@
     function toggleMenu() {
       isOpen = !isOpen
     }
+
+    function hideHamburger(){
+        isOpen = false
+    }
 </script>
   
 <div class="headerOverall rounded-b-lg justify-between items-center flex relative">
     <!-- Home -->
-    <a class="hoverHeader pl-5" href="/">Adam Kvant</a>
+    <a on:click={hideHamburger} class="hoverHeader pl-5" href="/">Adam Kvant</a>
 
     <!-- Hamburger -->
     <button class="block md:hidden pr-5" on:click={toggleMenu} aria-label="Toggle Menu">
