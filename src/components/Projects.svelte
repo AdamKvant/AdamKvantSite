@@ -20,8 +20,8 @@
     },
     {
       title:"CulinaryCards",
-      description:"A recipe sharing application created using Flask, PostgreSQL, UnsplashAPI, and PureCSS. The site features full-text search, and the ability to like and save recipes to the user profile.",
-      tags:["Flask","PostgreSQL","PureCSS","JS"],
+      description:"A recipe sharing application without the ads and short stories. The site features full-text search, and the ability to like and save recipes to the user profile.",
+      tags:["Flask","JS","PostgreSQL","PureCSS"],
       disclaimer:true,
       source:"CulinaryCards.png",
       alt:"CulinaryCards picture",

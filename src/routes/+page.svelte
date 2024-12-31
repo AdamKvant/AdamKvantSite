@@ -25,7 +25,8 @@
 
   <!-- About Me -->
   <Card title="About Me"
-  description="Hi, I’m Adam! I recently graduated with distinction from UMN’s College of Science and Engineering with a B.S. in Computer Science. With intern experience in IT, Data Science, and Development, I have a diverse set of skills at my disposal. I enjoy exploring new technologies and 3D printing.
+  description="Hi, I’m Adam! I recently graduated with distinction from UMN’s College of Science and Engineering with a B.S. in Computer Science. Throughout my undergrad experience I had intern experiences in IT, Data Science, and Software Development.
+  Interning in many sectors of the tech industry brought me broad knowledge that allows me to communicate effectively with my peers.
   <br> Outside of tech, I’m passionate about lifting, baking bread, fencing (Sabre), rock climbing, gaming, and soccer." />
   <!-- End About Me -->
 
