@@ -78,7 +78,7 @@
       <div class={`Card shadow-2xl pt-2 ${item.description.length == 0 ? 'md:pb-2' : 'md:pb-4'}`}>
         <div class="md:mt-2 md:mb-0 md:ml-8 space-y-2 md:mr-4 mx-7">
           <div class="flex flex-col md:flex-row items-center md:items-start">
-            <img class="rounded-full h-16 w-16 md:h-12 md:w-12 md:mr-2 mt-2 md:mt-0 mb-3 md:mb-0" src="/images/{item.source}" alt={item.alt}>
+            <img class="shadow-lg rounded-full h-16 w-16 md:h-12 md:w-12 md:mr-2 mt-2 md:mt-0 mb-3 md:mb-0" src="/images/{item.source}" alt={item.alt}>
             <div class="flex flex-col items-center md:items-start">
               <h2 class="text-lg font-bold text-[#FCFAEE]">{item.title}</h2>
               <div class="flex flex-row items-center md:items-start gap-3">
