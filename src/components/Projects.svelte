@@ -58,6 +58,9 @@
   </script>
   
   <div class="flex flex-col space-y-4 w-full items-center my-6">
+    <div class="flex items-center justify-center text-2xl font-bold text-[#FCFAEE] px-6 pt-2 Card md:w-7/12 shadow-2xl">
+      <span class="-pb-3 lg:-mb-4 lg:-mt-1.5">All project cards are links to GitHub or other related resources.</span>
+    </div>
     {#each projects as item}
       <a href={item.link} class="Card flex flex-col-reverse items-center shadow-2xl">
         {#if item.source}
