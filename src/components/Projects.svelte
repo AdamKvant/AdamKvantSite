@@ -11,7 +11,7 @@
     },
     {
       title:"Globetrotter",
-      description:"A mobile friendly, trip logging app created using EmberJS and TailwindCSS. Hosted on Google Firebase",
+      description:"A mobile friendly, trip logging app created using EmberJS, TailwindCSS, and hosted on Google Firebase. Users can upload trips through the destination selector, and can view them on the home page or the timeline. The timeline also has a dynamic filter option to filter based on various trip properties.",
       tags: ["EmberJS","TailwindCSS", "Figma","Firebase","Firestore"],
       disclaimer:true,
       source:"Globetrotter.png",
