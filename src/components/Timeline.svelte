@@ -1,9 +1,9 @@
 <script>
     export let timeline = [
       {
-        title: "Incoming Application Developer Associate",
+        title: "Application Developer Associate",
         company: "RSM US LLP",
-        duration: "Present",
+        duration: "January 2025 - Present",
         description: [],
         source:"rsm_us_llp_logo.jpg",
         alt:"RSM Logo",
