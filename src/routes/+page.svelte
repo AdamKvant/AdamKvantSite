@@ -17,7 +17,7 @@
       <div class="IntroDesc">
         Computer Science Graduate UMN CSE Class of 2025
         <br>
-        Incoming Application Developer Associate at <span class="font-bold text-xl"><span class="text-[#63666A]">R</span><span class="text-[#3F9C35]">S</span><span class="text-[#009CDE]">M</span></span>
+        Application Developer Associate at <span class="font-bold text-xl"><span class="text-[#63666A]">R</span><span class="text-[#3F9C35]">S</span><span class="text-[#009CDE]">M</span></span>
       </div>
     </div>
   </div>
