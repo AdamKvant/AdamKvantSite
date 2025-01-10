@@ -27,19 +27,19 @@
 }
 
 .headshot {
-    @apply rounded-full shadow-xl md:w-64 md:h-64 w-28 h-28 object-contain md:ml-10;
+    @apply rounded-full shadow-xl xl:w-64 xl:h-64 w-28 h-28 object-contain xl:ml-10;
 }
 
 .Intro{
-    @apply sm:w-4/5 w-2/5 bg-[#384B70] pb-7 pt-5 rounded-3xl mt-6 flex flex-col md:flex-row items-center justify-center shadow-lg
+    @apply sm:w-4/5 w-2/5 bg-[#384B70] pb-7 pt-5 rounded-3xl mt-6 flex flex-col xl:flex-row items-center justify-center shadow-lg
 }
 
 .Name {
-    @apply font-bold text-5xl text-[#FCFAEE] mt-3 md:-mt-1 md:pl-16 px-8
+    @apply font-bold text-5xl text-[#FCFAEE] mt-3 md:-mt-1 xl:pl-16 px-8
 }
 
 .IntroDesc{
-    @apply text-[#FCFAEE] mt-3 md:mt-3 md:pl-16 font-semibold text-lg md:pr-10 px-8
+    @apply text-[#FCFAEE] mt-3 xl:mt-3 xl:pl-16 font-semibold text-lg lg:pr-10 px-8
 }
 
 .Card {
