@@ -3,7 +3,7 @@
       {
         title: "adamkvant.dev",
         description: "This site was created to learn more about component-based frameworks and to pick up Svelte. The site follows the standard SPA structure, and it is hosted on Google Firebase. The color scheme is also based upon my Rocket League car's color.",
-        tags: ["Svelte","TailwindCSS","JS/TS","Firebase"],
+        tags: ["Svelte","TailwindCSS","JavaScript","TypeScript","Firebase"],
         disclaimer:false,
         source: "AKSitePic.png",
         alt: "adamkvant.dev picture",
@@ -21,7 +21,7 @@
     {
       title:"CulinaryCards",
       description:"A recipe sharing application without the ads and short stories. The site features full-text search, and the ability to like and save recipes to the user profile.",
-      tags:["Flask","JS","PostgreSQL","PureCSS"],
+      tags:["Flask","JavaScript","PostgreSQL","PureCSS"],
       disclaimer:true,
       source:"CulinaryCards.png",
       alt:"CulinaryCards picture",
@@ -32,7 +32,7 @@
       description:`This was a month long summer project consisting of work updating all course related material for CSCI 1933, a required class for pre-CS majors at UMN. Samantha and I took initiative by getting this project approved by the professor and department for the summer.
       We converted all LaTeX documents over to markdown files with their own repo and created Gradescope autograders for all applicable projects. We also set up a new GitHub organization for students and course staff to interact with.
       This meant we updated all labs, projects, and their related rubrics, unit tests, and code.`,
-      tags:["Java","JUnit","GitHub","Bash","Algorithms & Data Structures"],
+      tags:["Java","JUnit","GitHub","Bash","Algorithms & Data Structures","Documentation"],
       disclaimer:false,
       link:"https://www.linkedin.com/in/adamkvant/details/projects/",
     },
@@ -40,7 +40,7 @@
       title:"MathWhiz",
       description:`MathWhiz is a minimalist web-app that I created over the span of a couple of days in undergrad.
       The user tries to get as many random arithmetic questions right within one minute.`,
-      tags:["ExpressJS","CSS","JS","PUG"],
+      tags:["ExpressJS","CSS","JavaScript","PUG"],
       source: "MathWhiz.png",
       alt:"MathWhiz picture",
       disclaimer:true,
