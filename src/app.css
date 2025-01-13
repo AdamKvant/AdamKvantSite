@@ -16,7 +16,7 @@
 }
 
 .footerOverall{
-    @apply bg-[#B8001F] font-semibold text-4xl text-[#FCFAEE] pt-1 pb-1 flex
+    @apply bg-[#B8001F] font-semibold text-3xl text-[#FCFAEE] pt-1 pb-1 flex
 }
 
 .hoverHeader{

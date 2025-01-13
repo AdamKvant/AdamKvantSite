@@ -14,7 +14,7 @@
         duration: "June 2024 - August 2024",
         description: [
           "Developed Model-Driven Apps, Canvas Apps, Power Automate Flows, Power Pages, and other Power Platform tools.",
-          "Generated web resources in JS to automate and customize Power Platform application frontends.",
+          "Generated web resources in JavaScript to automate and customize Power Platform application frontends.",
           "Generated plugins and scripts in C# to automate backend Power Platform application processes.",
           "Utilized OData API requests to implement custom data filtering, tested using Postman."
         ],

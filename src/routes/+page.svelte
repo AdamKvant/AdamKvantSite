@@ -25,9 +25,24 @@
 
   <!-- About Me -->
   <Card title="About Me"
-  description="Hi, I’m Adam! I recently graduated with distinction from UMN’s College of Science and Engineering with a B.S. in Computer Science. Throughout my undergrad experience I had intern experiences in IT, Data Science, and Software Development.
-  Interning in many sectors of the tech industry brought me broad knowledge that allows me to communicate effectively with my peers.
-  <br> Outside of tech, I’m passionate about lifting, baking bread, fencing (Sabre), rock climbing, gaming, and soccer." />
+  description="Hi, I’m Adam! I recently graduated with distinction from UMN’s College of Science and Engineering with a B.S. in Computer Science.
+  While in university, I served as the lead undergraduate teaching assistant for <i>CSCI 1933: Introduction to Algorithms and Data Structures</i> 
+  and I was the go-to resource for students due to my experience creating much of the course content. 
+  I am also an alumni of the Tau Beta Pi Engineering Honors Society.
+  <br>
+  <br>
+  Throughout undergrad, I had three internships across the IT, Data Science, and Software Development sectors. 
+  These diverse internships gave me broad knowledge across the tech industry, enabling me to collaborate effectively with peers from various disciplines.
+  While I have enjoyed all of the internship experiences, I enjoy developing software the most and focus on learning more technologies in my free time.
+  These days I am incredibly blessed to be working at <span class='font-bold text-xl'><span class='text-[#63666A]'>R</span><span class='text-[#3F9C35]'>S</span><span class='text-[#009CDE]'>M</span></span>
+   as an Application Development Associate creating various applications for clients.
+  <br>
+  <br>
+  Outside of tech, I’m passionate about lifting, baking bread, gaming, rock climbing, and spending time with friends and family.
+  I also casually fence (Sabre) and play soccer in my spare time with friends and family.
+  In terms of gaming, I enjoy all genres of video games and board games. 
+  I've recently been playing Teamfight Tactics, Marvel Rivals, Fortnite and occasionally LoL (I retired at a peak of Emerald II).
+  " />
   <!-- End About Me -->
 
   <!-- Skills -->
