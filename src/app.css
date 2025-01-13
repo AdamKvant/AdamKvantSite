@@ -35,7 +35,7 @@
 }
 
 .Name {
-    @apply font-bold text-5xl text-[#FCFAEE] mt-3 md:-mt-1 xl:pl-16 px-8
+    @apply font-bold text-5xl text-[#FCFAEE] mt-3  xl:pl-16 px-8
 }
 
 .IntroDesc{
