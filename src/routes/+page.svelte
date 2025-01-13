@@ -40,7 +40,7 @@
   <br>
   Outside of tech, I’m passionate about lifting, baking bread, gaming, rock climbing, and spending time with friends and family.
   I also casually fence (Sabre) and play soccer in my spare time with friends and family.
-  In terms of gaming, I enjoy all genres of video games and board games. 
+  In terms of gaming, I enjoy all types of video and board games. 
   I've recently been playing Teamfight Tactics, Marvel Rivals, Fortnite and occasionally LoL (I retired at a peak of Emerald II).
   " />
   <!-- End About Me -->
