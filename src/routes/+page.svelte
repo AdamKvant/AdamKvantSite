@@ -15,7 +15,7 @@
     <div class="flex flex-col items-center xl:items-start justify-center xl:w-4/5 w-full">
       <h1 class="Name">Adam Kvant</h1>
       <div class="IntroDesc">
-        Computer Science Graduate UMN CSE Class of 2025
+        B.S. Computer Science, UMN CSE Class of 2025
         <br>
         Application Developer Associate at <span class="font-bold text-xl"><span class="text-[#63666A]">R</span><span class="text-[#3F9C35]">S</span><span class="text-[#009CDE]">M</span></span>
       </div>
