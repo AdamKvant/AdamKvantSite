@@ -23,7 +23,7 @@
     },
     {
       title:"CSCI 1933 Course Content Designer",
-      company:"University of Minnesota Department of Computer Science & Engineering",
+      company:"UMN Department of Computer Science & Engineering",
       duration: "May 2024 - June 2024",
       description:[
         "Took initiative to gain support from the course professor and department to secure funding.",
@@ -35,7 +35,7 @@
     },
     {
         title: "Undergraduate Teaching Assistant",
-        company: "University of Minnesota Department of Computer Science & Engineering",
+        company: "UMN Department of Computer Science & Engineering",
         duration: "September 2023 - December 2024",
         description: [
           "Undergraduate Teaching Assistant for CSCI 1933: Introduction to Algorithms and Data Structures",
