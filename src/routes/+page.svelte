@@ -17,7 +17,7 @@
       <div class="IntroDesc">
         B.S. Computer Science, UMN CSE Class of 2025
         <br>
-        Application Developer Associate at <span class="font-bold text-xl"><span class="text-[#63666A]">R</span><span class="text-[#3F9C35]">S</span><span class="text-[#009CDE]">M</span></span>
+        Application Engineering Associate at <span class="font-bold text-xl"><span class="text-[#63666A]">R</span><span class="text-[#3F9C35]">S</span><span class="text-[#009CDE]">M</span></span>
       </div>
     </div>
   </div>
@@ -35,7 +35,7 @@
   These diverse internships gave me broad knowledge across the tech industry, enabling me to collaborate effectively with peers from various disciplines.
   While I have enjoyed all of the internship experiences, I enjoy developing software the most and focus on learning more technologies in my free time.
   These days I am incredibly blessed to be working at <span class='font-bold text-xl'><span class='text-[#63666A]'>R</span><span class='text-[#3F9C35]'>S</span><span class='text-[#009CDE]'>M</span></span>
-   as an Application Development Associate creating various applications for clients.
+   as an Application Engineering Associate creating various applications for clients.
   <br>
   <br>
   Outside of tech, I’m passionate about lifting, baking bread, gaming, rock climbing, and spending time with friends and family.
