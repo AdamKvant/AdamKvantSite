@@ -2,7 +2,7 @@
     export let projects = [
         {
           title: "PDAParser",
-          description: "PDAParser is a quaint CLI program that I created to aid a life-long friend, Jackson Watson D.O.'28,in processing data from his medical research lab. This program normalizes values from raw EMG data on muscles in the foot and lower leg, and puts them in an easily readable output file. This program was straightforward to create, and saved significant time in processing data from the lab. Information about this study is in the README found by clicking on this tile.",
+          description: "PDAParser is a quaint CLI program that I created to aid a life-long friend, Jackson Watson D.O.'28, in processing data from his medical research lab. This program normalizes values from raw EMG data on muscles in the foot and lower leg, and puts them in an easily readable output file. This program was straightforward to create, and saved significant time in processing data from the lab. Information about this study is in the README found by clicking on this tile.",
           tags: ["Python","File I/O","Medical Research Contribution"],
           disclaimer:false,
           source: "Final_Study_Poster.png",
