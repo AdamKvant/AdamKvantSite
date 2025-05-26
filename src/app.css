@@ -12,7 +12,7 @@
 
 
 .headerOverall {
-    @apply bg-[#B8001F] font-bold text-4xl text-[#FCFAEE] pt-2 pl-2 pb-3 flex;
+    @apply bg-[#B8001F] font-bold xl:text-4xl text-2xl text-[#FCFAEE] pt-2 pl-2 pb-3 flex;
 }
 
 .footerOverall{
