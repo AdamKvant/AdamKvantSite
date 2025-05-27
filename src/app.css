@@ -61,3 +61,19 @@
 .hoverFooter{
     @apply cursor-pointer transition-all duration-200 hover:opacity-100 hover:transform hover:translate-y-[-5px];
 }
+
+
+.prose-centered p,
+.prose-centered h1,
+.prose-centered h2,
+.prose-centered img {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prose-img img {
+    border-radius: 1em;
+    box-shadow: 1em;
+    margin-bottom: 0;
+}
