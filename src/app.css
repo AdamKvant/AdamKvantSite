@@ -54,7 +54,7 @@
 }
 
 .Tag{
-    @apply text-[#FCFAEE] bg-[#B8001F] p-0.5 px-1.5 h-fit rounded-md transition-all duration-500 hover:text-[#B8001F] hover:bg-[#FCFAEE] cursor-default
+    @apply text-[#FCFAEE] bg-[#B8001F] p-0.5 px-1.5 h-fit w-fit rounded-md transition-all duration-500 hover:text-[#B8001F] hover:bg-[#FCFAEE] cursor-default
 }
 
 .hoverFooter{
@@ -62,13 +62,17 @@
 }
 
 
-.prose-centered p,
+
 .prose-centered h1,
 .prose-centered h2,
 .prose-centered img {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.prose h2 {
+    @apply my-3
 }
 
 .prose-img img {
