@@ -45,7 +45,6 @@
 .Card {
     @apply w-11/12 md:w-4/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg pb-3 md:pb-5 shadow-xl
 }
-
 .CardTitle{
     @apply font-bold text-5xl text-[#FCFAEE] mt-3 pl-7 md:pl-10 
 }
@@ -55,7 +54,7 @@
 }
 
 .Tag{
-    @apply text-[#FCFAEE] bg-[#B8001F] p-0.5 px-1.5 rounded-md transition-all duration-500 hover:text-[#B8001F] hover:bg-[#FCFAEE] cursor-default
+    @apply text-[#FCFAEE] bg-[#B8001F] p-0.5 px-1.5 h-fit rounded-md transition-all duration-500 hover:text-[#B8001F] hover:bg-[#FCFAEE] cursor-default
 }
 
 .hoverFooter{
@@ -76,4 +75,5 @@
     border-radius: 1em;
     box-shadow: 1em;
     margin-bottom: 0;
+    width: 85%;
 }

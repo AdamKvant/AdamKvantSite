@@ -6,4 +6,5 @@
     });
     import BlogHome from '../../components/BlogHome.svelte';
   </script>
+  
   <BlogHome/>

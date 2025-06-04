@@ -5,7 +5,7 @@
     onMount(() => {
       document.title = "Adam Kvant";
     });
-  </script>
+</script>
 
   <!-- Body -->
 <div class="flex flex-col items-center gap-4 min-h-full mb-6">
