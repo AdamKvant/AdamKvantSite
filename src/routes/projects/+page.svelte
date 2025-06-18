@@ -14,7 +14,7 @@
 			title: 'adamkvant.dev',
 			description:
 				"This site was created to learn more about component-based frameworks and to pick up Svelte. The site follows the standard SPA structure, and it is hosted on Google Firebase. The color scheme is also based upon my Rocket League car's color.",
-			tags: ['Svelte', 'TailwindCSS', 'JavaScript', 'TypeScript', 'Firebase'],
+			tags: ['Svelte', 'TailwindCSS', 'JavaScript', 'TypeScript', 'Firebase','MiniSearch'],
 			disclaimer: false,
 			source: 'AKSitePic.png',
 			alt: 'adamkvant.dev picture',
