@@ -39,7 +39,7 @@
 }
 
 .IntroDesc{
-    @apply text-[#FCFAEE] mt-3 xl:mt-3 xl:pl-16 font-semibold text-lg lg:pr-10 px-8
+    @apply text-[#FCFAEE] mt-3 xl:mt-3 xl:pl-16 font-semibold text-lg lg:pr-10 px-8 md:text-left text-center
 }
 
 .Card {

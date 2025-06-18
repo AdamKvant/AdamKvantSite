@@ -1,18 +1,9 @@
 <script>
-  export let blogs = [
-    {
-      title: "Git Integration for Power Platform Overview",
-      description: "June 3rd, 2025",
-      tags: ["Power Platform", "Azure DevOps"],
-      source: "GitPP.png",
-      alt: "Cover Image",
-      id: 0,
-    },
-  ];
+  export let blogs;
   import Tag from "./Tag.svelte";
 </script>
-
 <div class="flex flex-col space-y-4 w-full items-center my-6">
+  {#if blogs.length > 0}
   {#each blogs as item, index}
     <a href={`blog/${item.id}`} class="Card flex flex-col-reverse items-center shadow-2xl w-full max-w-4xl">
       
@@ -44,4 +35,11 @@
       {/if}
     </a>
   {/each}
+  {:else}
+    <h1 class="text-center bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-xl shadow-xl w-fit px-3 py-1">No results found</h1>
+  {/if}
 </div>
+
+
+
+
