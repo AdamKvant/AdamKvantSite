@@ -4,7 +4,9 @@
         title: "Application Engineering Associate",
         company: "RSM US LLP",
         duration: "January 2025 - Present",
-        description: [],
+        description: [
+          "Earned the fastest Microsoft PL-900 and PL-200 certifications after joining the firm (both in my first 3 months).",
+        ],
         source:"rsm_us_llp_logo.jpg",
         alt:"RSM Logo",
     },
