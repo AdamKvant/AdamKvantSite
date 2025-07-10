@@ -8,7 +8,7 @@
   <div class="Card">
     <h1 class="CardTitle">{title}</h1>
     <div class="CardDesc">
-      {@html description}
+        {@html description}
       {#if description}
       <br>
       {/if}

@@ -1,7 +1,7 @@
 <script>
 	export let blogs = [
 		{
-			title: 'Git Integration for Power Platform Overview',
+			title: 'Git Integration for Power Platform',
 			description: 'June 3rd, 2025',
 			tags: ['Power Platform', 'Azure DevOps'],
 			source: 'GitPP.png',

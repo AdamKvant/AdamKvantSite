@@ -81,3 +81,12 @@
     margin-bottom: 0;
     width: 85%;
 }
+
+
+.prose ul {
+  @apply list-disc marker:text-[#FCFAEE];
+}
+
+.prose p{
+    text-indent: 2rem;
+}
