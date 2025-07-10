@@ -5,14 +5,18 @@
 	let { children } = $props();
 </script>
 
-<div class="flex justify-center max-w-screen">
-    <div class="aspect-h-9 aspect-w-16 sm:w-11/12 lg:w-6/12 flex flex-col min-h-screen relative">
-        <Header/>
-        <div class="mb-14">{@render children()}</div>
-        <div class="absolute bottom-0 w-full">
-            <Footer/>
+<div class="flex flex-col min-h-screen items-center">
+    <div class="sm:w-11/12 lg:w-6/12 w-full"><Header /></div>
+    
+
+    <div class="flex justify-center flex-grow w-full">
+        <div class="aspect-h-9 aspect-w-16 sm:w-11/12 lg:w-6/12 w-full">
+            {@render children()}
         </div>
     </div>
+
+    <div class="sm:w-11/12 lg:w-6/12 w-full"><Footer /></div>
 </div>
+
 
 

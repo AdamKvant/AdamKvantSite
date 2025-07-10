@@ -12,7 +12,7 @@
 
 
 .headerOverall {
-    @apply bg-[#B8001F] font-bold text-4xl text-[#FCFAEE] pt-2 pl-2 pb-3 flex;
+    @apply bg-[#B8001F] font-bold xl:text-4xl text-2xl text-[#FCFAEE] pt-2 pl-2 pb-3 flex;
 }
 
 .footerOverall{
@@ -39,13 +39,12 @@
 }
 
 .IntroDesc{
-    @apply text-[#FCFAEE] mt-3 xl:mt-3 xl:pl-16 font-semibold text-lg lg:pr-10 px-8
+    @apply text-[#FCFAEE] mt-3 xl:mt-3 xl:pl-16 font-semibold text-lg lg:pr-10 px-8 md:text-left text-center
 }
 
 .Card {
     @apply w-11/12 md:w-4/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg pb-3 md:pb-5 shadow-xl
 }
-
 .CardTitle{
     @apply font-bold text-5xl text-[#FCFAEE] mt-3 pl-7 md:pl-10 
 }
@@ -55,9 +54,39 @@
 }
 
 .Tag{
-    @apply text-[#FCFAEE] bg-[#B8001F] p-0.5 px-1.5 rounded-md transition-all duration-500 hover:text-[#B8001F] hover:bg-[#FCFAEE] cursor-default
+    @apply text-[#FCFAEE] bg-[#B8001F] p-0.5 px-1.5 h-fit w-fit rounded-md transition-all duration-500 hover:text-[#B8001F] hover:bg-[#FCFAEE] cursor-default
 }
 
 .hoverFooter{
     @apply cursor-pointer transition-all duration-200 hover:opacity-100 hover:transform hover:translate-y-[-5px];
+}
+
+
+
+.prose-centered h1,
+.prose-centered h2,
+.prose-centered img {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prose h2 {
+    @apply my-3
+}
+
+.prose-img img {
+    border-radius: 1em;
+    box-shadow: 1em;
+    margin-bottom: 0;
+    width: 85%;
+}
+
+
+.prose ul {
+  @apply list-disc marker:text-[#FCFAEE];
+}
+
+.prose p{
+    text-indent: 2rem;
 }
