@@ -12,16 +12,35 @@
 
 
 .headerOverall {
-    @apply bg-[#B8001F] font-bold xl:text-4xl text-2xl text-[#FCFAEE] pt-2 pl-2 pb-3 flex;
+    @apply bg-[#FCFAEE] font-bold xl:text-2xl text-lg text-[#384B70] pt-2 pb-3 flex;
+}
+
+.headerTitle {
+    @apply xl:text-6xl text-5xl underline decoration-[#B8001F] [text-decoration-thickness:3px] transition-colors duration-300 ease-in-out
+}
+
+.headerTitle:hover {
+    @apply text-[#B8001F] decoration-[#384B70]
 }
 
 .footerOverall{
     @apply bg-[#B8001F] font-semibold text-3xl text-[#FCFAEE] pt-1 pb-1 flex
 }
 
-.hoverHeader{
-    @apply hover:text-[#384B70] hover:border-[#384B70] cursor-pointer transition-all duration-300 hover:opacity-100 hover:transform hover:translate-y-[-5px];
+.hoverHeader {
+  @apply relative inline-block cursor-pointer;
 }
+
+.hoverHeader::after {
+  content: '';
+  @apply absolute left-0 bottom-0 h-[2.5px] w-full bg-[#B8001F] 
+         origin-left scale-x-0 transition-transform duration-300;
+}
+
+.hoverHeader:hover::after {
+  @apply scale-x-100;
+}
+
 .hoverHeaderHam{
     @apply cursor-pointer;
 }
