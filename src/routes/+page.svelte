@@ -46,7 +46,7 @@
     },
     {
         title: "Undergraduate Teaching Assistant",
-        company: "UMN Dept. CS & E",
+        company: "UMN Dept. of CS & E",
         duration: "September 2023 - December 2024",
         description: [
           "Undergraduate Teaching Assistant for CSCI 1933: Introduction to Algorithms and Data Structures",
