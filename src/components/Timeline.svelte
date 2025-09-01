@@ -31,7 +31,6 @@
 					</svg>
 				</button>
 
-				<!-- Top row -->
 				<div class="flex flex-col items-center md:flex-row md:items-start">
 					<img
 						class="mb-3 mt-2 h-16 w-16 rounded-full shadow-lg md:mb-0 md:mr-2 md:mt-0 md:h-14 md:w-14"

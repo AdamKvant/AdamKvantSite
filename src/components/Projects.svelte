@@ -9,8 +9,7 @@
 <h1 class="CardTitle text-center">Projects</h1>
 
 <div class="w-11/12 md:w-full max-w-5xl mx-auto my-6">
-
-  <!-- Pinterest-style masonry using CSS columns -->
+<!-- Masonry -->
   <div class="columns-1 sm:columns-2 gap-4">
     {#each projects as item}
       <a
