@@ -23,7 +23,7 @@
                   <!-- Card image (if exists) -->
         {#if item.source}
           <div class="w-full px-0">
-            <img class="shadow-lg" src="images/{item.source}" alt={item.alt} />
+            <img class="" src="images/{item.source}" alt={item.alt} />
           </div>
         {/if}
 

@@ -106,7 +106,7 @@
 			title: 'Globetrotter',
 			tags: ['EmberJS', 'TailwindCSS', 'Figma', 'Firebase', 'Firestore'],
 			disclaimer: true,
-			source: 'Globetrotter.png',
+			source: 'Globetrotter.svg',
 			alt: 'Globetrotter picture',
 			link: 'https://github.com/csci5117f24/project-2-peanut-butter-pickles',
 			order: 5
@@ -115,7 +115,7 @@
 			title: 'CulinaryCards',
 			tags: ['Flask', 'JavaScript', 'PostgreSQL', 'PureCSS'],
 			disclaimer: true,
-			source: 'CulinaryCards.png',
+			source: 'CulinaryCards.svg',
 			alt: 'CulinaryCards picture',
 			link: 'https://github.com/csci5117f24/project-1-peanut-butter-pickles',
 			order:4
