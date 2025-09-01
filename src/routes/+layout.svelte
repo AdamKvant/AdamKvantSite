@@ -6,16 +6,13 @@
 </script>
 
 <div class="flex flex-col min-h-screen items-center">
-    <div class="sm:w-11/12 lg:w-6/12 w-full"><Header /></div>
-    
-
+    <div class="sm:w-11/12 lg:w-10/12 w-full"><Header /></div>
     <div class="flex justify-center flex-grow w-full">
-        <div class="aspect-h-9 aspect-w-16 sm:w-11/12 lg:w-6/12 w-full">
+        <div class="aspect-h-9 aspect-w-16">
             {@render children()}
         </div>
     </div>
-
-    <div class="sm:w-11/12 lg:w-6/12 w-full"><Footer /></div>
+    <div class="w-full md:w-9/12 xl:w-6/12"><Footer /></div>
 </div>
 
 

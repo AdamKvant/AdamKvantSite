@@ -8,7 +8,11 @@ export default {
 	
 
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily:{
+				orbiter:['"TASA Orbiter"', 'sans-serif']
+			}
+		}
 	},
 
 	plugins: [typography, forms, containerQueries]
