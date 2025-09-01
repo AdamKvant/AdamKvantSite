@@ -1,7 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-
+@import url('https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap');
 
 /* Color Scheme:
     Navy: 384B70
@@ -11,16 +11,27 @@
 */
 
 
-.headerOverall {
-    @apply bg-[#FCFAEE] font-bold xl:text-2xl text-lg text-[#384B70] pt-2 pb-3 flex;
+html, body {
+  @apply font-orbiter text-[#384B70];
 }
 
+
+.headerOverall {
+    @apply bg-[#FCFAEE] font-bold text-[#384B70] 
+           pt-60 md:pt-96 pb-52 flex items-center justify-center;
+}
+
+
 .headerTitle {
-    @apply xl:text-6xl text-5xl underline decoration-[#B8001F] [text-decoration-thickness:3px] transition-colors duration-300 ease-in-out
+    @apply text-6xl md:text-9xl underline decoration-[#B8001F] [text-decoration-thickness:3px] transition-colors duration-300 ease-in-out
 }
 
 .headerTitle:hover {
     @apply text-[#B8001F] decoration-[#384B70]
+}
+
+.headerText {
+    @apply text-xl md:text-3xl
 }
 
 .footerOverall{
@@ -41,36 +52,19 @@
   @apply scale-x-100;
 }
 
-.hoverHeaderHam{
-    @apply cursor-pointer;
-}
-
-.headshot {
-    @apply rounded-full shadow-xl xl:w-64 xl:h-64 w-28 h-28 object-contain xl:ml-10;
-}
-
-.Intro{
-    @apply sm:w-4/5 w-2/5 bg-[#384B70] pb-7 pt-5 rounded-3xl mt-6 flex flex-col xl:flex-row items-center justify-center shadow-lg
-}
-
-.Name {
-    @apply font-bold text-5xl text-[#FCFAEE] mt-3  xl:pl-16 px-8
-}
-
-.IntroDesc{
-    @apply text-[#FCFAEE] mt-3 xl:mt-3 xl:pl-16 font-semibold text-lg lg:pr-10 px-8 md:text-left text-center
-}
 
 .Card {
-    @apply w-11/12 md:w-4/5 bg-[#384B70] rounded-3xl text-[#FCFAEE] font-semibold text-lg pb-3 md:pb-5 shadow-xl
+    @apply w-11/12 md:w-10/12 text-[#FCFAEE] font-semibold text-lg pb-3 md:pb-5
 }
 .CardTitle{
-    @apply font-bold text-5xl text-[#FCFAEE] mt-3 pl-7 md:pl-10 
+    @apply font-bold text-5xl text-[#384B70] mt-3 flex items-center justify-center underline decoration-[#B8001F] [text-decoration-thickness:3px]
 }
 
 .CardDesc{
-    @apply text-[#FCFAEE] mt-3 pl-7 md:pl-10 font-semibold text-lg pr-7 md:pr-10
+    @apply text-[#384B70] mt-3 pl-7 md:pl-10 font-semibold text-lg pr-7 md:pr-10
 }
+
+
 
 .Tag{
     @apply text-[#FCFAEE] bg-[#B8001F] p-0.5 px-1.5 h-fit w-fit rounded-md transition-all duration-500 hover:text-[#B8001F] hover:bg-[#FCFAEE] cursor-default

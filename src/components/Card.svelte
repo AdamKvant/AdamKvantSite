@@ -5,7 +5,7 @@
     import Tag from '../components/Tag.svelte'
 </script>
   
-  <div class="Card">
+  <div class="Card w-full md:w-9/12 xl:w-6/12">
     <h1 class="CardTitle">{title}</h1>
     <div class="CardDesc">
         {@html description}
