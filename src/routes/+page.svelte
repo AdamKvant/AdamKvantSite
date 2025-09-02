@@ -95,7 +95,7 @@
 		},
 		{
 			title: 'adamkvant.dev',
-			tags: ['Svelte', 'TailwindCSS', 'JavaScript', 'TypeScript', 'Firebase','MiniSearch'],
+			tags: ['Svelte', 'TailwindCSS', 'JavaScript', 'TypeScript', 'Firebase'],
 			disclaimer: false,
 			source: 'AKSitePic.png',
 			alt: 'adamkvant.dev picture',

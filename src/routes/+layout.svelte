@@ -12,7 +12,7 @@
             {@render children()}
         </div>
     </div>
-    <div class="w-full md:w-9/12 xl:w-6/12"><Footer /></div>
+    <div class="w-full md:w-9/12 xl:w-5/12"><Footer /></div>
 </div>
 
 
