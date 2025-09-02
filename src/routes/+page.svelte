@@ -12,7 +12,7 @@
       {
         title: "Application Engineering Associate",
         company: "RSM US LLP",
-        duration: "January 2025 - Present",
+        duration: "Jan 2025 - Present",
         description: [
           "Earned the fastest Microsoft PL-900 and PL-200 certifications after joining the firm (both in my first 3 months).",
         ],
@@ -22,7 +22,7 @@
     {
         title: "Application Engineering Intern",
         company: "RSM US LLP",
-        duration: "June 2024 - August 2024",
+        duration: "June 2024 - Aug 2024",
         description: [
           "Developed Model-Driven Apps, Canvas Apps, Power Automate Flows, Power Pages, and other Power Platform tools.",
           "Generated web resources in JavaScript to automate and customize Power Platform application frontends.",
@@ -47,7 +47,7 @@
     {
         title: "Undergraduate Teaching Assistant",
         company: "UMN Dept. of CS & E",
-        duration: "September 2023 - December 2024",
+        duration: "Sept 2023 - Dec 2024",
         description: [
           "Undergraduate Teaching Assistant for CSCI 1933: Introduction to Algorithms and Data Structures",
           "Project Leader: I directed the creation of many major assignments that introduce core Java concepts.",
@@ -59,7 +59,7 @@
     {
         title: "Data Science Intern",
         company: "Optum",
-        duration: "June 2023 - August 2023",
+        duration: "June 2023 - Aug 2023",
         description: [
           "Researched Clinical Trial Optimization Feasibility for OptumAI.",
           "Implemented SQL queries on insurance claims database to generate synthetic control arms for three clinical trials.",
@@ -72,7 +72,7 @@
     {
         title: "Systems Support Analyst Intern",
         company: "Egan Company",
-        duration: "May 2022 - August 2022",
+        duration: "May 2022 - Aug 2022",
         description: [
           "Led a summer long project of laptop maintenance, repairs, and updates for various Windows machines.",
           "Collaborated with other interns on replacing employee phones throughout the metro area.",
@@ -157,7 +157,7 @@
 	<Card title="Skills"
 	description=""
 	tags={["Java","Python","C#","HTML/CSS","JavaScript","TailwindCSS","EmberJS","Flask","Svelte","C","ExpressJS",
-	"UML","Git","Firebase","Linux (Ubuntu & Fedora)","TypeScript","MySQL","PostgreSQL","Microsoft Office", "Google Workspace",
+	"UML","Git","Firebase","Linux","TypeScript","MySQL","PostgreSQL","Microsoft Office", "Google Workspace",
 	"Solidworks","x86_64 Assembly","C++","Agile Scrum","Power Apps","Power Automate", "TSQL","Azure Functions"
 	]}/>
 	<!-- End Skills -->

@@ -6,15 +6,15 @@
 
 	function toggle(index) {
 		openStates[index] = !openStates[index];
-		openStates = [...openStates]; // trigger reactivity
+		openStates = [...openStates];
 	}
 </script>
 
 <h1 class="CardTitle">Experience</h1>
-<div class="my-6 flex w-full md:w-9/12 xl:w-6/12 flex-col items-center space-y-4">
+<div class="my-5 flex w-full md:w-9/12 xl:w-6/12 flex-col items-center space-y-4">
 	{#each timeline as item, i}
 		<div class="Card pt-2 shadow-2xl border-2 border-[#507687]">
-			<div class="relative mx-7  md:mb-0 md:ml-8 md:mr-4 md:mt-2">
+			<div class="relative mx-6 md:mb-0 md:ml-6 md:mr-4 md:mt-2">
 				
 				<!-- Dropdown Button -->
 				<button on:click={() => toggle(i)}
