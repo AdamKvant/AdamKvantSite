@@ -18,7 +18,7 @@
 
 <h1 class="CardTitle text-center">Projects</h1>
 
-<div class="w-11/12 md:w-full max-w-5xl mx-auto my-5 grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="w-11/12 md:w-full max-w-5xl mx-auto gap-6 my-6 grid grid-cols-1 sm:grid-cols-2">
   <!-- Left Column -->
   <div class="flex flex-col gap-6">
     {#each leftColumn as item}
