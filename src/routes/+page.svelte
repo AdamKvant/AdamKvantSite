@@ -97,7 +97,7 @@
 			title: 'adamkvant.dev',
 			tags: ['Svelte', 'TailwindCSS', 'JavaScript', 'TypeScript', 'Firebase'],
 			disclaimer: false,
-			source: 'AKSitePic.png',
+			source: 'AdamKvantDev.png',
 			alt: 'adamkvant.dev picture',
 			link: 'https://github.com/AdamKvant/AdamKvantSite',
 			order: 6
