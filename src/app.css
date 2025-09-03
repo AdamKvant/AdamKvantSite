@@ -16,15 +16,25 @@ html, body {
   @apply font-orbiter text-[#384B70];
 }
 
+.link{
+    @apply text-[#B8001F] underline decoration-[#B8001F] decoration-2
+}
+
+.headshot {
+    @apply rounded-full shadow-xl lg:w-44 lg:h-44 w-28 h-28 object-contain;
+}
+.intro{
+    @apply flex flex-col md:flex-row items-center justify-center w-full md:w-9/12 xl:w-6/12 mb-10
+}
 
 .headerOverall {
     @apply bg-[#FCFAEE] font-bold text-[#384B70] 
-           pt-56 md:pt-56 pb-32 flex items-center justify-center;
+           pt-56 md:pt-56 pb-12 md:pb-14 flex items-center justify-center;
 }
 
 
 .headerTitle {
-    @apply text-6xl md:text-9xl underline decoration-[#B8001F] [text-decoration-thickness:3px] transition-colors duration-300 ease-in-out
+    @apply text-5xl md:text-9xl underline decoration-[#B8001F] [text-decoration-thickness:3px] transition-colors duration-300 ease-in-out
 }
 
 .headerTitle:hover {
@@ -36,7 +46,7 @@ html, body {
 }
 
 .footerOverall{
-    @apply bg-[#B8001F] font-semibold text-3xl text-[#FCFAEE] pt-1 pb-1 flex
+    @apply font-semibold text-3xl text-[#B8001F] pt-1 pb-1 flex
 }
 
 .hoverHeader {

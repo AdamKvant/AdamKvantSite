@@ -24,7 +24,7 @@
     {#each leftColumn as item}
       <a
         href={item.link}
-        class="inline-block w-full break-inside-avoid shadow-2xl border-2 border-[#507687]"
+        class="inline-block w-full break-inside-avoid shadow-xl border-2 border-[#507687]"
       >
         <div class="space-y-1.5 w-full px-6 mt-2">
           <h2 class="text-2xl font-bold text-[#384B70]">{item.title}</h2>
@@ -62,7 +62,7 @@
     {#each rightColumn as item}
       <a
         href={item.link}
-        class="inline-block w-full break-inside-avoid shadow-2xl border-2 border-[#507687]"
+        class="inline-block w-full break-inside-avoid shadow-xl border-2 border-[#507687]"
       >
         <div class="space-y-1.5 w-full px-6 mt-2">
           <h2 class="text-2xl font-bold text-[#384B70]">{item.title}</h2>
