@@ -156,11 +156,12 @@
             <img src="/images/Headshot.jpg" alt="Adam Kvant Headshot" class="headshot"/>
         </div>
         <p class="w-10/12 md:w-7/12 font-bold text-center">
-            Hey I'm Adam! I am a Software Engineer that loves to learn and work with new technology. I currently work for RSM,
-            and I develop "pro-code" solutions for the Power Platform. I have worked with clients in 7+ industries, and
-            enjoy creating solutions to their business problems. I am also a Microsoft Certified: Power Platform Solution Architect Expert!
-            In my spare time, I enjoy cooking, cycling, video games, and spending time with friends and family.
-            If you have interest in my skills, want to hear about about my internship journey, or just want to chat feel free to <a class="link" href="mailto:adamkvant@gmail.com">contact me!</a>
+            Hey, I'm Adam! I am a Software Engineer who loves to learn and work with new technology.
+            I currently work for RSM, and I develop "pro-code" solutions for the Power Platform. 
+            I have worked with clients in 7+ industries, and I enjoy creating solutions to their business problems. 
+            I am also a Microsoft Certified: Power Platform Solution Architect Expert! In my spare time, 
+            I enjoy cooking, cycling, video games, and spending time with friends and family. 
+            If you have an interest in my skills, want to hear about my internship journey, or just want to chat, feel free to <a class="link" href="mailto:adamkvant@gmail.com">contact me!</a>
             
         </p>
     </div>
