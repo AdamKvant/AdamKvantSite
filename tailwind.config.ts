@@ -10,7 +10,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily:{
-				orbiter:['"Open Sans"', 'sans-serif']
+				orbiter:['"Open Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif']
 			}
 		}
 	},
