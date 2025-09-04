@@ -10,7 +10,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily:{
-				orbiter:['"Open Sans"','"TASA Orbiter"', 'sans-serif']
+				orbiter:['"Open Sans"', 'sans-serif']
 			}
 		}
 	},
