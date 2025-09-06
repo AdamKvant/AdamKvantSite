@@ -36,7 +36,7 @@
           {/if}
 
           {#if item.description}
-            <p class="text-[#384B70]">
+            <p class="text-[#384B70] font-semibold">
               {item.description}
               {#if item.disclaimer}
                 <br />
@@ -47,7 +47,7 @@
             </p>
           {/if}
 
-          <div class="flex flex-wrap justify-center gap-2 pb-3 lg:pb-1">
+          <div class="flex flex-wrap justify-center gap-2 pb-3 lg:pb-1 font-semibold">
             {#each item.tags as tag}
               <Tag text={tag} />
             {/each}
@@ -74,7 +74,7 @@
           {/if}
 
           {#if item.description}
-            <p class="text-[#384B70]">
+            <p class="text-[#384B70] font-semibold">
               {item.description}
               {#if item.disclaimer}
                 <br />
@@ -85,7 +85,7 @@
             </p>
           {/if}
 
-          <div class="flex flex-wrap justify-center gap-2 pb-3 lg:pb-1">
+          <div class="flex flex-wrap justify-center gap-2 pb-3 lg:pb-1 font-semibold">
             {#each item.tags as tag}
               <Tag text={tag} />
             {/each}

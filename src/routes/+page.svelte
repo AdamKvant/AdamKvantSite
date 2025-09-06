@@ -95,7 +95,7 @@
 		},
 		{
 			title: 'adamkvant.dev',
-			tags: ['Svelte', 'TailwindCSS', 'JavaScript', 'TypeScript', 'Firebase'],
+			tags: ['Svelte', 'TailwindCSS', 'JavaScript', 'TypeScript'],
 			disclaimer: false,
 			source: 'AdamKvantDev.png',
 			alt: 'adamkvant.dev picture',
@@ -108,7 +108,7 @@
 			disclaimer: true,
 			source: 'Globetrotter.svg',
 			alt: 'Globetrotter picture',
-			link: 'https://github.com/csci5117f24/project-2-peanut-butter-pickles',
+			link: 'https://github.com/AdamKvant/Globetrotter',
 			order: 5
 		},
 		{
@@ -117,7 +117,7 @@
 			disclaimer: true,
 			source: 'CulinaryCards.svg',
 			alt: 'CulinaryCards picture',
-			link: 'https://github.com/csci5117f24/project-1-peanut-butter-pickles',
+			link: 'https://github.com/AdamKvant/CulinaryCards',
 			order:4
 		},
 		{
