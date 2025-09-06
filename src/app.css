@@ -27,7 +27,7 @@ html, body {
 
 .headerOverall {
     @apply bg-[#FCFAEE] font-bold text-[#384B70] 
-           pt-56 md:pt-56 pb-12 md:pb-14 flex items-center justify-center;
+           pt-20 md:pt-48 pb-12 md:pb-14 flex items-center justify-center;
 }
 
 
@@ -43,8 +43,8 @@ html, body {
     @apply text-xl md:text-3xl
 }
 
-.footerOverall{
-    @apply font-semibold text-3xl text-[#B8001F] pt-1 pb-1 flex
+.iconHeaderOverall{
+    @apply font-semibold text-3xl text-[#B8001F] pt-1.5 pb-1 flex sticky top-0 z-50 backdrop-blur-sm
 }
 
 .hoverHeader {
@@ -79,10 +79,14 @@ html, body {
     @apply text-[#FCFAEE] bg-[#B8001F] p-0.5 px-1.5 h-fit w-fit rounded-md transition-all duration-500 hover:text-[#B8001F] hover:bg-[#FCFAEE] cursor-default
 }
 
-.hoverFooter{
+.hoverIconHeader{
     @apply cursor-pointer transition-all duration-200 hover:opacity-100 hover:transform hover:translate-y-[-5px];
 }
 
+
+.footerContent {
+    @apply pb-3 text-[#B8001F] font-semibold
+}
 
 
 .prose-centered h1,
