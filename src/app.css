@@ -27,7 +27,7 @@ html, body {
 
 .headerOverall {
     @apply bg-[#FCFAEE] font-bold text-[#384B70] 
-           pt-20 md:pt-48 pb-12 md:pb-14 flex items-center justify-center;
+           pt-20 md:pt-40 pb-12 md:pb-14 flex items-center justify-center;
 }
 
 
@@ -44,7 +44,7 @@ html, body {
 }
 
 .iconHeaderOverall{
-    @apply font-semibold text-3xl text-[#B8001F] pt-1.5 pb-1 flex sticky top-0 z-50 backdrop-blur-sm
+    @apply font-semibold text-3xl text-[#B8001F] pt-2 pb-1 flex sticky top-0 z-50 backdrop-blur-sm
 }
 
 .hoverHeader {
