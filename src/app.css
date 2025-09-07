@@ -9,7 +9,22 @@
     Red: B8001F
 */
 
+/* Page Load */
+main {
+  @apply opacity-0 -translate-y-1 md:-translate-y-2 lg:-translate-y-3;
+}
 
+main.loaded {
+  @apply opacity-100 translate-y-0 transition-all duration-[1750ms] ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  main.loaded {
+    @apply transition-none translate-y-0;
+  }
+}
+
+/* Defaults */
 html, body {
   @apply font-orbiter text-[#384B70];
 }
@@ -18,13 +33,17 @@ html, body {
     @apply text-[#B8001F] underline decoration-[#B8001F] decoration-2
 }
 
-.headshot {
-    @apply rounded-full shadow-xl lg:w-44 lg:h-44 w-28 h-28 object-contain;
-}
-.intro{
-    @apply flex flex-col md:flex-row items-center justify-center w-full md:w-9/12 xl:w-6/12 mb-10
+/* Icon Header */
+.iconHeaderOverall{
+    @apply font-semibold text-3xl text-[#B8001F] pt-2 pb-1 flex sticky top-0 z-50 backdrop-blur-sm
 }
 
+.hoverIconHeader{
+    @apply cursor-pointer transition-all duration-200 hover:opacity-100 hover:transform hover:translate-y-[-5px];
+}
+
+
+/* Adam Kvant Header*/
 .headerOverall {
     @apply bg-[#FCFAEE] font-bold text-[#384B70] 
            pt-20 md:pt-40 pb-12 md:pb-14 flex items-center justify-center;
@@ -43,25 +62,16 @@ html, body {
     @apply text-xl md:text-3xl
 }
 
-.iconHeaderOverall{
-    @apply font-semibold text-3xl text-[#B8001F] pt-2 pb-1 flex sticky top-0 z-50 backdrop-blur-sm
+
+/* Intro/Bio Section */
+.headshot {
+    @apply rounded-full shadow-xl lg:w-44 lg:h-44 w-28 h-28 object-contain;
+}
+.intro{
+    @apply flex flex-col md:flex-row items-center justify-center w-full md:w-9/12 xl:w-6/12 mb-10
 }
 
-.hoverHeader {
-  @apply relative inline-block cursor-pointer;
-}
-
-.hoverHeader::after {
-  content: '';
-  @apply absolute left-0 bottom-0 h-[2.5px] w-full bg-[#B8001F] 
-         origin-left scale-x-0 transition-transform duration-300;
-}
-
-.hoverHeader:hover::after {
-  @apply scale-x-100;
-}
-
-
+/* Card */
 .Card {
     @apply w-11/12 md:w-10/12 text-[#FCFAEE] font-semibold text-lg pb-3 md:pb-5
 }
@@ -73,22 +83,17 @@ html, body {
     @apply text-[#384B70] mt-3 pl-7 md:pl-10 font-semibold text-lg pr-7 md:pr-10
 }
 
-
-
 .Tag{
     @apply text-[#FCFAEE] bg-[#B8001F] p-0.5 px-1.5 h-fit w-fit rounded-md transition-all duration-500 hover:text-[#B8001F] hover:bg-[#FCFAEE] cursor-default
 }
 
-.hoverIconHeader{
-    @apply cursor-pointer transition-all duration-200 hover:opacity-100 hover:transform hover:translate-y-[-5px];
-}
-
-
+/* Footer */
 .footerContent {
     @apply pb-3 text-[#B8001F] font-semibold
 }
 
 
+/* Blog Prose Formatting, may return to this */
 .prose-centered h1,
 .prose-centered h2,
 .prose-centered img {
@@ -107,7 +112,6 @@ html, body {
     margin-bottom: 0;
     width: 85%;
 }
-
 
 .prose ul {
   @apply list-disc marker:text-[#FCFAEE];

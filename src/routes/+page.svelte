@@ -1,9 +1,9 @@
 <script>
 	import Projects from './../components/Projects.svelte';
 	import Timeline from '../components/Timeline.svelte';
-    import { onMount } from 'svelte';
-        import Card from '../components/Card.svelte'
-        import Tag from '../components/Tag.svelte'
+  import { onMount } from 'svelte';
+  import Card from '../components/Card.svelte'
+  import Tag from '../components/Tag.svelte'
     onMount(() => {
       document.title = "Adam Kvant";
     });
@@ -165,7 +165,6 @@
             
         </p>
     </div>
-
 	<!-- Experience -->
 	<Timeline timeline={timeline}/>
 	<!-- Skills -->
@@ -176,23 +175,5 @@
 	"Solidworks","x86_64 Assembly","C++","Agile Scrum","Power Apps","Power Automate", "TSQL","Azure Functions"
 	]}/>
 	<!-- End Skills -->
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <Projects projects={projects}/>
 </div>
