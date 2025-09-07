@@ -7,10 +7,8 @@
       "**/node_modules/**"
     ],
     "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
+    { "source": "/experience", "function": "ssr" },
+    { "source": "**", "destination": "/index.html" }
     ],
     "headers": [
       {
