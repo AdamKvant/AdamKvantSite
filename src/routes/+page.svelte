@@ -14,7 +14,10 @@
         company: "RSM US LLP",
         duration: "Jan 2025 - Present",
         description: [
-          "Earned the fastest Microsoft PL-900 and PL-200 certifications after joining the firm (both in my first 3 months).",
+          "Developed a C# Azure function to meet client needs in half of the allocated time.",
+          "Refactored codebase to use TSQL to greatly decrease processing time when compared to FetchXML queries.",
+          "Developed internal web applications to improve client processes and user experience.",
+          "Designed and implemented Azure Functions to interact with client orders using webhooks, improving employee efficiency."
         ],
         source:"rsm_us_llp_logo.jpg",
         alt:"RSM Logo",
