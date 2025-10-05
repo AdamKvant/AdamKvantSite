@@ -160,7 +160,7 @@
         </div>
         <p class="w-10/12 md:w-7/12 font-bold text-center">
             Hey, I'm Adam! I am a Software Engineer who loves to learn and work with new technology.
-            I currently work for RSM, and I develop "pro-code" solutions for the Power Platform. 
+            I currently work for RSM, developing pro-code solutions for the Power Platform and Azure. 
             I have worked with clients in 7+ industries, and I enjoy creating solutions to their business problems. 
             I am also a Microsoft Certified: Power Platform Solution Architect Expert! In my spare time, 
             I enjoy cooking, cycling, video games, and spending time with friends and family. 
@@ -175,7 +175,7 @@
 	description=""
 	tags={["Java","Python","C#","HTML/CSS","JavaScript","TailwindCSS","EmberJS","Flask","Svelte","C","ExpressJS",
 	"UML","Git","Firebase","Linux","TypeScript","MySQL","PostgreSQL","Microsoft Office", "Google Workspace",
-	"Solidworks","x86_64 Assembly","C++","Agile Scrum","Power Apps","Power Automate", "TSQL","Azure Functions"
+	"SOLIDWORKS","x86_64 Assembly","C++","Agile Scrum","Azure","Power Apps","Power Automate", "TSQL","Azure Functions"
 	]}/>
 	<!-- End Skills -->
   <Projects projects={projects}/>
