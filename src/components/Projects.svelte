@@ -18,7 +18,7 @@
 
 <h1 class="CardTitle text-center">Projects</h1>
 
-<div class="w-11/12 md:w-full max-w-5xl mx-auto gap-6 mt-6 mb-2 grid grid-cols-1 sm:grid-cols-2">
+<div class="w-11/12 md:w-9/12 xl:w-5/12 mx-auto gap-5 mt-6 mb-2 grid grid-cols-1 sm:grid-cols-2">
   <!-- Left Column -->
   <div class="flex flex-col gap-6">
     {#each leftColumn as item}
@@ -36,7 +36,7 @@
           {/if}
 
           {#if item.description}
-            <p class="text-[#384B70] font-semibold">
+            <p class="text-[#384B70] font-semibold text-base md:text-[1.05rem]">
               {item.description}
               {#if item.disclaimer}
                 <br />
@@ -74,7 +74,7 @@
           {/if}
 
           {#if item.description}
-            <p class="text-[#384B70] font-semibold">
+            <p class="text-[#384B70] text-base md:text-[1.05rem] font-semibold">
               {item.description}
               {#if item.disclaimer}
                 <br />

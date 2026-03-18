@@ -14,7 +14,7 @@
         company: "RSM US LLP",
         duration: "Jan 2025 - Present",
         description: [
-          "Developed a C# Azure function to meet client needs in half of the allocated time.",
+          "Architected and developed integrations between D365 CE and D365 F&SC using Azure Service Bus and Azure Functions.",
           "Refactored codebase to use TSQL to greatly decrease processing time when compared to FetchXML queries.",
           "Developed internal web applications to improve client processes and user experience.",
           "Designed and implemented Azure Functions to interact with client orders using webhooks, improving employee efficiency."
@@ -28,8 +28,8 @@
         duration: "June 2024 - Aug 2024",
         description: [
           "Developed Model-Driven Apps, Canvas Apps, Power Automate Flows, Power Pages, and other Power Platform tools.",
-          "Generated web resources in JavaScript to automate and customize Power Platform application frontends.",
-          "Generated plugins and scripts in C# to automate backend Power Platform application processes.",
+          "Created web resources in JavaScript to automate and customize Power Platform application frontends.",
+          "Developed plugins and scripts in C# to automate backend Power Platform application processes.",
           "Utilized OData API requests to implement custom data filtering, tested using Postman."
         ],
         source:"rsm_us_llp_logo.jpg",
@@ -97,11 +97,11 @@
 			order:7
 		},
 		{
-			title: 'adamkvant.dev',
+			title: 'adamkvant.com',
 			tags: ['Svelte', 'TailwindCSS', 'JavaScript', 'TypeScript'],
 			disclaimer: false,
 			source: 'AdamKvantDev.png',
-			alt: 'adamkvant.dev picture',
+			alt: 'adamkvant.com picture',
 			link: 'https://github.com/AdamKvant/AdamKvantSite',
 			order: 6
 		},
@@ -155,16 +155,16 @@
 <!-- Body -->
 <div class="flex flex-col items-center gap-5 min-h-full mb-6">
       <div class="intro">
-        <div class="md:mr-5 md:mb-0 mb-10">
+        <div class="md:mr-5 md:mb-0 mb-8">
             <img src="/images/Headshot.jpg" alt="Adam Kvant Headshot" class="headshot"/>
         </div>
-        <p class="w-10/12 md:w-7/12 font-bold text-center">
+        <p class="w-10/12 md:w-7/12 font-semibold text-center text-lg">
             Hey, I'm Adam! I am a Software Engineer who loves to learn and work with new technology.
-            I currently work for RSM, developing pro-code solutions for the Power Platform and Azure. 
-            I have worked with clients in 7+ industries, and I enjoy creating solutions to their business problems. 
+            I currently work for RSM, primarily developing code-heavy solutions for Azure and D365. 
+            I have worked with clients in 7+ industries, and I enjoy creating solutions to their business problems.
             I am also a Microsoft Certified: Power Platform Solution Architect Expert! In my spare time, 
             I enjoy cooking, cycling, video games, and spending time with friends and family. 
-            If you have an interest in my skills, want to hear about my internship journey, or just want to chat, feel free to <a class="link" href="mailto:adamkvant@gmail.com">contact me!</a>
+            If you have an interest in my skills or just want to chat, feel free to <a class="link font-bold" href="mailto:adamkvant@gmail.com">contact me!</a>
             
         </p>
     </div>
@@ -175,7 +175,8 @@
 	description=""
 	tags={["Java","Python","C#","HTML/CSS","JavaScript","TailwindCSS","EmberJS","Flask","Svelte","C","ExpressJS",
 	"UML","Git","Firebase","Linux","TypeScript","MySQL","PostgreSQL","Microsoft Office", "Google Workspace",
-	"SOLIDWORKS","x86_64 Assembly","C++","Agile Scrum","Azure","Power Apps","Power Automate", "TSQL","Azure Functions"
+	"SOLIDWORKS","x86_64 Assembly","C++","Agile Scrum","Azure","Power Apps","Power Automate", "TSQL","Azure Functions",
+  "Azure Service Bus", "Power Pages", "Doxygen"
 	]}/>
 	<!-- End Skills -->
   <Projects projects={projects}/>

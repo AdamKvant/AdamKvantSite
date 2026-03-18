@@ -37,11 +37,11 @@
 						src="/images/{item.source}"
 						alt={item.alt}
 					/>
-					<div class="flex flex-col items-center md:items-start">
-						<h2 class="text-lg font-bold text-[#384B70]">{item.title}</h2>
+					<div class="flex flex-col items-center justify-center sm:justify-normal md:items-start">
+						<h2 class="text-[1.1rem] md:text-xl font-bold text-[#384B70]">{item.title}</h2>
 						<div class="flex flex-row items-center gap-3 md:items-start">
-							<span class="text-sm font-bold text-[#384B70] md:text-base">{item.company}</span>
-							<span class="text-sm italic text-[#384B70] md:text-base">{item.duration}</span>
+							<span class="text-sm md:text-md font-bold text-[#384B70] md:text-base">{item.company}</span>
+							<span class="text-sm md:text-md italic text-[#384B70] md:text-base">{item.duration}</span>
 						</div>
 					</div>
 				</div>
