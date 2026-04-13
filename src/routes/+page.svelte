@@ -176,7 +176,7 @@
 	tags={["Java","Python","C#","HTML/CSS","JavaScript","TailwindCSS","EmberJS","Flask","Svelte","C","ExpressJS",
 	"UML","Git","Firebase","Linux","TypeScript","MySQL","PostgreSQL","Microsoft Office", "Google Workspace",
 	"SOLIDWORKS","x86_64 Assembly","C++","Agile Scrum","Azure","Power Apps","Power Automate", "TSQL","Azure Functions",
-  "Azure Service Bus", "Power Pages", "Doxygen"
+  "Azure Service Bus", "Power Pages", "Doxygen","Postman"
 	]}/>
 	<!-- End Skills -->
   <Projects projects={projects}/>
