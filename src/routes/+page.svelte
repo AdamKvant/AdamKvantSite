@@ -10,9 +10,19 @@
 
 		export let timeline = [
       {
+        title: "Application Engineering Senior Associate",
+        company: "RSM US LLP",
+        duration: "Aug 2026 - Present",
+        description: [
+          "Emphasis on architecting, developing, and delivering integrations with D365 CE using Azure."
+        ],
+        source:"rsm_us_llp_logo.jpg",
+        alt:"RSM Logo",
+      },
+      {
         title: "Application Engineering Associate",
         company: "RSM US LLP",
-        duration: "Jan 2025 - Present",
+        duration: "Jan 2025 - July 2026",
         description: [
           "Architected and developed integrations between D365 CE and D365 F&SC using Azure Service Bus and Azure Functions.",
           "Refactored codebase to use TSQL to greatly decrease processing time when compared to FetchXML queries.",
@@ -176,7 +186,7 @@
 	tags={["Java","Python","C#","HTML/CSS","JavaScript","TailwindCSS","EmberJS","Flask","Svelte","C","ExpressJS",
 	"UML","Git","Firebase","Linux","TypeScript","MySQL","PostgreSQL","Microsoft Office", "Google Workspace",
 	"SOLIDWORKS","x86_64 Assembly","C++","Agile Scrum","Azure","Power Apps","Power Automate", "TSQL","Azure Functions",
-  "Azure Service Bus", "Power Pages", "Doxygen","Postman","Proxmox"
+  "Azure Service Bus", "Power Pages", "Doxygen","Postman","Proxmox","Homelab"
 	]}/>
 	<!-- End Skills -->
   <Projects projects={projects}/>
